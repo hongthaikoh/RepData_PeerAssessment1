@@ -142,7 +142,7 @@ intervalavg[which.max(intervalavg$avgSteps),]
 ## 4. Imputing missing values
 
 
-To start with, i will find out total missing values in the dataset (by showing total number of rows with NAs)
+To start with, I will find out total missing values in the dataset (by showing total number of rows with NAs)
 
 ```r
 table(is.na(activity$steps))
